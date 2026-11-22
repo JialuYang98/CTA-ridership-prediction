@@ -1,0 +1,21 @@
+{
+  "selected_trial": {
+    "name": "raw_absolute_d8",
+    "scale": "raw",
+    "objective": "reg:absoluteerror",
+    "max_depth": 8,
+    "seasonal": true
+  },
+  "trees_retained": 869,
+  "maximum_validation_prediction_difference_after_reload": 0.0009375000008731149,
+  "selection_metric": "2024 validation WMAPE",
+  "test_used_for_selection": false,
+  "training_fingerprints": {
+    "cta_xgboost_train.py": "18f27e28e78d31cb5155b351bc15926ee7ffd8a64de486df3eabb0619b81598f",
+    "cta_features.parquet": "edddbe7b2a7005357c41ce4ece140ce784cf00199f731055f74633ae5689d3ab"
+  },
+  "current_fingerprints": {
+    "cta_xgboost_train.py": "211ec6cf0f290d0fdc66179c0ebed5a1b5d8ae2b4892e8d9690ab8cef9e4896d",
+    "cta_features.parquet": "edddbe7b2a7005357c41ce4ece140ce784cf00199f731055f74633ae5689d3ab"
+  }
+}

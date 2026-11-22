@@ -1,0 +1,353 @@
+{
+  "authorization": "User requested removal of superseded models after selecting the best XGBoost, LSTM, and GCN-LSTM.",
+  "selection_metric": "2024 validation WMAPE",
+  "status": "completed",
+  "files": [
+    {
+      "path": "cta_xgboost_outputs/feature_importance.csv",
+      "bytes": 852,
+      "sha256": "f3e3791cd5752e9a4c2f4e0c7f8fd1d83c00ae9f34483a8b58baa5c1ece46db9"
+    },
+    {
+      "path": "cta_xgboost_outputs/feature_table.parquet",
+      "bytes": 42325560,
+      "sha256": "edddbe7b2a7005357c41ce4ece140ce784cf00199f731055f74633ae5689d3ab"
+    },
+    {
+      "path": "cta_xgboost_outputs/graph_edges.csv",
+      "bytes": 7039,
+      "sha256": "b3f9f15ca0f1b3d08c9e0812a00a3db1e7d8f2a4e9584e863f8aca60200d9543"
+    },
+    {
+      "path": "cta_xgboost_outputs/graph_nodes.csv",
+      "bytes": 2915,
+      "sha256": "3362d61ac690db6bb35c23c4198a75f4d2a5e3dfaf3053309d8d3f393b1f8880"
+    },
+    {
+      "path": "cta_xgboost_outputs/metadata.joblib",
+      "bytes": 4111,
+      "sha256": "f2e50d06e426a3b7976d3b8a2d70e1e31d66f0a76d5030c9f95525c8374d31a6"
+    },
+    {
+      "path": "cta_xgboost_outputs/metrics.csv",
+      "bytes": 150,
+      "sha256": "f9e6292cdc086097654192df2b69d6b67f314456c2f32107888e6022cd3641af"
+    },
+    {
+      "path": "cta_xgboost_outputs/run_summary.json",
+      "bytes": 411,
+      "sha256": "2abd2b004691a26ae24c2ff5cfff395ebd2f98d82822d34e29a7020fd4e7533d"
+    },
+    {
+      "path": "cta_xgboost_outputs/test_predictions.csv",
+      "bytes": 2715038,
+      "sha256": "22195ce63888cbd1d928719083bd01c6652e733fe489e35ca5fe27567612219e"
+    },
+    {
+      "path": "cta_xgboost_outputs/training_eval_history.csv",
+      "bytes": 168702,
+      "sha256": "69b8af7bc8878fc350643023751a7f2ad7ef421cc48f1c25e442f157b4d64bcd"
+    },
+    {
+      "path": "cta_xgboost_outputs/validation_predictions.csv",
+      "bytes": 2965433,
+      "sha256": "049d37907d27f6809c66f5fda68dbc37e6af000a4dc1d20764693574d0c5733c"
+    },
+    {
+      "path": "cta_xgboost_outputs/xgboost_model.joblib",
+      "bytes": 7382584,
+      "sha256": "cf706ba858163b7d46f0b8bbd493728897a34fd0a9f3115d1f4c430c58a8d96e"
+    },
+    {
+      "path": "cta_xgboost_outputs/xgboost_model.json",
+      "bytes": 32938347,
+      "sha256": "4eb1ea0bc5167a232d45de1837140695a9b49bfd445bcb8b3a889b2a4436b12a"
+    },
+    {
+      "path": "cta_lstm_outputs_lstm/category_maps.joblib",
+      "bytes": 836,
+      "sha256": "67b196c8f84b014a7769c465448e5e4dcbcea32285cb982da87545917c6b4f00"
+    },
+    {
+      "path": "cta_lstm_outputs_lstm/lstm_model.pt",
+      "bytes": 247413,
+      "sha256": "c9d81e96cb1661fe7d4b620073beaae01bf1dbac5cdd226b2c9572b8dee392c7"
+    },
+    {
+      "path": "cta_lstm_outputs_lstm/metrics.csv",
+      "bytes": 129,
+      "sha256": "2afda2f486fea632eb06891e442077c47392a7365ed55e3218273a2f1f01c1e3"
+    },
+    {
+      "path": "cta_lstm_outputs_lstm/test_predictions.csv",
+      "bytes": 2227880,
+      "sha256": "03dddb89bc92dbd2c8fafcd0a741bdd11dc58feb10a85a09e09713d5beab96b2"
+    },
+    {
+      "path": "cta_lstm_outputs_lstm/training_history.csv",
+      "bytes": 885,
+      "sha256": "08c3ae87653cb715e35826d4b7f93d4adb01546699b5df7b80f4d0ff91b751dd"
+    },
+    {
+      "path": "cta_lstm_outputs_lstm/validation_predictions.csv",
+      "bytes": 2430270,
+      "sha256": "e56ce6b92045874da2812869aab6d1c02fba5e2a37f9a09fa63119d13852e9b9"
+    },
+    {
+      "path": "cta_gcn_lstm_outputs/gcn_lstm_model.pt",
+      "bytes": 297173,
+      "sha256": "3a3a6c550ab2d5505d73d23e2d9430d33856363dcdc9688d82bccd44e757e83d"
+    },
+    {
+      "path": "cta_gcn_lstm_outputs/graph_edges.csv",
+      "bytes": 7039,
+      "sha256": "4ce4364c9c93dd3691f8a33fa58886e263721068ec4f044520c98284736efaf9"
+    },
+    {
+      "path": "cta_gcn_lstm_outputs/graph_nodes.csv",
+      "bytes": 2915,
+      "sha256": "3362d61ac690db6bb35c23c4198a75f4d2a5e3dfaf3053309d8d3f393b1f8880"
+    },
+    {
+      "path": "cta_gcn_lstm_outputs/metadata.joblib",
+      "bytes": 27454,
+      "sha256": "e56ac582f6afc4b3d9d6c4212936760668f84235d45c0f8204f7c59f9a37ed8c"
+    },
+    {
+      "path": "cta_gcn_lstm_outputs/metrics.csv",
+      "bytes": 131,
+      "sha256": "caeb68e782bab835f33ab798df7831d3be55a824a7846337fe0845e3d11b8ee7"
+    },
+    {
+      "path": "cta_gcn_lstm_outputs/test_predictions.csv",
+      "bytes": 3167138,
+      "sha256": "643dc2618d09bacf81cc449a9f5be209e1a78a7b78a76cbc9daca65c72df9fb7"
+    },
+    {
+      "path": "cta_gcn_lstm_outputs/training_history.csv",
+      "bytes": 1543,
+      "sha256": "194dd6a2da2d281f7169fc8d1dd547acdac10c0e45a09befececa4bdaaa08e06"
+    },
+    {
+      "path": "cta_gcn_lstm_outputs/validation_predictions.csv",
+      "bytes": 3468241,
+      "sha256": "7979093d50f156ddab535b106bc6ba50b52d3b9d1112703030400b62f8aeaa5e"
+    },
+    {
+      "path": "cta_gcn_lstm_improved_outputs/model.pt",
+      "bytes": 146700,
+      "sha256": "36c9494c2c608bc3ef720f87baa06eac88afd3b4c675cef2b448bdb1cec8d2ee"
+    },
+    {
+      "path": "cta_gcn_lstm_improved_outputs/test_metrics.json",
+      "bytes": 144,
+      "sha256": "9da67dcd212d2365c69b70240ac9ebfbbd418f54bccd8bf29944a2735f739666"
+    },
+    {
+      "path": "cta_gcn_lstm_improved_outputs/test_predictions.csv",
+      "bytes": 2484854,
+      "sha256": "4da5919223e7bdb233957da37f3057ec91f22d64f6411846222e8166972d77a2"
+    },
+    {
+      "path": "cta_gcn_lstm_improved_outputs/training_history.csv",
+      "bytes": 3477,
+      "sha256": "3e4d2da0b81473e4fc0f68fba505ca5751c273c99afaa0967abc5e81f29bde78"
+    },
+    {
+      "path": "cta_gcn_lstm_improved_outputs/validation_metrics.json",
+      "bytes": 160,
+      "sha256": "4b4b25422427ba1c499e68295bb867331fb5ad6a10b8a820d746e9b9dd0a4ac4"
+    },
+    {
+      "path": "cta_gcn_lstm_improved_outputs/validation_predictions.csv",
+      "bytes": 2721055,
+      "sha256": "b10a2f8d90638cb08330877cdfe2b18a3a0114e57a26e39d7d4517a38f2c1e6a"
+    },
+    {
+      "path": "cta_gcn_lstm_identity_outputs/model.pt",
+      "bytes": 146636,
+      "sha256": "c112662cdb3e7ca71ba4d61a429b71151e2358e751b1c35518740c58006bb048"
+    },
+    {
+      "path": "cta_gcn_lstm_identity_outputs/test_metrics.json",
+      "bytes": 142,
+      "sha256": "ddaa18635e64e35d52cb51fb81eb108b57a66328d232eb472cb3aae29c458b00"
+    },
+    {
+      "path": "cta_gcn_lstm_identity_outputs/test_predictions.csv",
+      "bytes": 2484785,
+      "sha256": "89a8c304ba40b070349fe87f9a65629514475b4f53c302e8d0fc57152ea892d0"
+    },
+    {
+      "path": "cta_gcn_lstm_identity_outputs/training_history.csv",
+      "bytes": 3489,
+      "sha256": "5c824c7706d0b82b5ad41ca65692e646d8da4b8480c178f6810a4dfe8c403ead"
+    },
+    {
+      "path": "cta_gcn_lstm_identity_outputs/validation_metrics.json",
+      "bytes": 159,
+      "sha256": "a236d7ab3f19864d176928ce8370f43db111428ed698771293e2c3449b4788de"
+    },
+    {
+      "path": "cta_gcn_lstm_identity_outputs/validation_predictions.csv",
+      "bytes": 2720817,
+      "sha256": "3caa2996379097ce9814bbeb4cb0c8e77ab2bc0b92d4e19e3676c637f4d7075f"
+    },
+    {
+      "path": "cta_gcn_lstm_comparison/comparison.png",
+      "bytes": 124469,
+      "sha256": "347641976d23bdbf501ce774c4cf32ea39259b88f70c7db7bddae77ee3339e3e"
+    },
+    {
+      "path": "cta_gcn_lstm_comparison/environment.json",
+      "bytes": 233,
+      "sha256": "1b7ebbcc8b61ec66e1675cd25c37347732066050d8c550e0145126fd2e192026"
+    },
+    {
+      "path": "cta_gcn_lstm_comparison/metrics.csv",
+      "bytes": 894,
+      "sha256": "27a0e5231141ef3046bb3ad5375c749ed46b2cd0282fcb7e1c0eae7882d8d0fb"
+    },
+    {
+      "path": "cta_gcn_lstm_comparison/selection.json",
+      "bytes": 187,
+      "sha256": "01966f4e0af195ab685eae155504ab807285c6f1d7853df55133dd0dbb37dddb"
+    },
+    {
+      "path": "experiments/xgboost_search/feature_importance.csv",
+      "bytes": 1624,
+      "sha256": "74a8dae5481686a24045017a0687dcce78534af0effd11792a026cd78ea86e6d"
+    },
+    {
+      "path": "experiments/xgboost_search/history_log_seasonal_d6.csv",
+      "bytes": 6593,
+      "sha256": "14ab9057fd4da076a3cec36a7400128c0b27879c56a51983dd98e1595567a9be"
+    },
+    {
+      "path": "experiments/xgboost_search/history_log_squared_d6.csv",
+      "bytes": 13497,
+      "sha256": "3aa2ecaa87bb869c855cef8c238e004c8df9d52dc79f412872890da1fdb85720"
+    },
+    {
+      "path": "experiments/xgboost_search/history_raw_absolute_d6.csv",
+      "bytes": 4583,
+      "sha256": "2554e360825669039bc4bb28b4f41c3126b56cf36bdba61293641c26e7a1796a"
+    },
+    {
+      "path": "experiments/xgboost_search/history_raw_absolute_d8.csv",
+      "bytes": 12140,
+      "sha256": "d06703e1bcefd268df41777d0a1666ed1a4899c4aebd940ec577664589a18d20"
+    },
+    {
+      "path": "experiments/xgboost_search/history_raw_squared_d6.csv",
+      "bytes": 2925,
+      "sha256": "f31a21a15a003d8a9176e26e231269972eaa8b29885506686bb4c5a32987598b"
+    },
+    {
+      "path": "experiments/xgboost_search/metadata.joblib",
+      "bytes": 4668,
+      "sha256": "0af1bcfedf8d9cdf616d38955e5fd2270cc6d5254fc6359686821afe26b71ed2"
+    },
+    {
+      "path": "experiments/xgboost_search/model.ubj",
+      "bytes": 10196858,
+      "sha256": "7f0b4d4841968b069aa1e204f4b28df0a3ec414a095ede6329ab3ca93c1223c7"
+    },
+    {
+      "path": "experiments/xgboost_search/search_results.csv",
+      "bytes": 678,
+      "sha256": "13d28edd77beb4578fe0b963f90d2c1948fa0e181d86e6725ac79ba792866e30"
+    },
+    {
+      "path": "experiments/xgboost_search/validation_metrics.json",
+      "bytes": 239,
+      "sha256": "bcb1f6f95ddffecb1e22f1ca44fd25b0a056e3200b26592f5e5b97a532ef5ca2"
+    },
+    {
+      "path": "experiments/xgboost_search/validation_predictions.csv",
+      "bytes": 2471209,
+      "sha256": "021c94612462fec7e92ed27fdbae4925b38d7dfa9a2ba7bb4941ef779548d9d1"
+    },
+    {
+      "path": "cta_xgboost_baseline.py",
+      "bytes": 23257,
+      "sha256": "c39e60933f963c3e71e448f23bc84d5a0370b84d2f07c8f5857ade97fead572a"
+    },
+    {
+      "path": "cta_xgboost_baseline_safe.py",
+      "bytes": 25501,
+      "sha256": "2454e354ffa915ef401bdcf15f4780d11cd101f72e8d01dd017ecf5b89f91965"
+    },
+    {
+      "path": "ridership_prediction.py",
+      "bytes": 7803,
+      "sha256": "47cf16c79c69b61f26b919cb52b40f5a71f3d0efd1429864895fcc14f07610a0"
+    },
+    {
+      "path": "ridership_LSTM.py",
+      "bytes": 17811,
+      "sha256": "cd44864514d35009db86cd99b657fd0f4dcd92985108adeaa427b2b096013bc0"
+    },
+    {
+      "path": "cta_gcn_lstm_forecast.py",
+      "bytes": 26545,
+      "sha256": "bc53e8fd93850736d8910f264100f9c962911304b8507870f277b997aa217583"
+    },
+    {
+      "path": "cta_gcn_lstm_improved.py",
+      "bytes": 12331,
+      "sha256": "dfb12a1f2a1fdc602bcebaa848dc3d575cbe95899fb9566c99f8194447c8bde1"
+    },
+    {
+      "path": "compare_cta_gcn_lstm.py",
+      "bytes": 4160,
+      "sha256": "38e7c5ceda219dab4463650dce7a8e6a7f392f82cfdc38a6d2f6eb2adb4b060c"
+    },
+    {
+      "path": "test_cta_gcn_lstm_improved.py",
+      "bytes": 2628,
+      "sha256": "f27fca67caab29b3ee5b9960d37295ae06db407cbc11cc6a7fa8cab0b353ffe4"
+    },
+    {
+      "path": "__pycache__/cta_data.cpython-312.pyc",
+      "bytes": 17830,
+      "sha256": "a861c263a9d8a2a194be96dd14455dc2055a792eedb3cf0bbaf56a67f9d5ecd6"
+    },
+    {
+      "path": "__pycache__/cta_gcn_lstm_forecast.cpython-312.pyc",
+      "bytes": 38422,
+      "sha256": "06ee4ce45e4728f12837ecb22fd386fc150e321bcf1a317f830fd869c684fb04"
+    },
+    {
+      "path": "__pycache__/cta_gcn_lstm_improved.cpython-312.pyc",
+      "bytes": 21783,
+      "sha256": "e8072fd30784bbf4b20bfaae1d791844c22594de831bc9181f0bd4a199c5fdc6"
+    },
+    {
+      "path": "__pycache__/cta_neural_forecast.cpython-312.pyc",
+      "bytes": 21749,
+      "sha256": "6c7972105cfd70d669c46502dbc83c399f58d69db0a73d9c4cc4197a80eb986b"
+    },
+    {
+      "path": "__pycache__/cta_xgboost_train.cpython-312.pyc",
+      "bytes": 15635,
+      "sha256": "49595960c151d96422135a475708f21e07aa569f1f5fb0267bf8667433bcdfc0"
+    },
+    {
+      "path": "__pycache__/test_cta_gcn_lstm_improved.cpython-312.pyc",
+      "bytes": 5951,
+      "sha256": "724a862ffaa70cc22c0635ddafdc30bcb92804203f9bf4b31fef5f1985896398"
+    },
+    {
+      "path": "__pycache__/test_cta_neural_forecast.cpython-312.pyc",
+      "bytes": 5934,
+      "sha256": "5531234ff88e7edfae3d6099b2c0d99d187740a43540d3e8330d673d6c26c3b7"
+    },
+    {
+      "path": "__pycache__/test_cta_xgboost.cpython-312.pyc",
+      "bytes": 3959,
+      "sha256": "39782eaa31b9097fecb30960c396fe600b821dc61cd75b4c1b4f1ea6569b20af"
+    }
+  ],
+  "total_bytes": 124194703
+}

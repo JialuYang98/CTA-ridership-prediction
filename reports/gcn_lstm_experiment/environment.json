@@ -1,0 +1,11 @@
+{
+  "python": "3.12.2",
+  "platform": "macOS-26.3.1-arm64-arm-64bit",
+  "numpy": "1.26.4",
+  "pandas": "2.3.1",
+  "torch": "2.10.0",
+  "scikit_learn": "1.5.1",
+  "joblib": "1.4.2",
+  "device": "cpu",
+  "threads_per_training_run": 2
+}

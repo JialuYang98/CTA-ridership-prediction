@@ -1,0 +1,9 @@
+{
+  "rows": 407064,
+  "columns": 42,
+  "numeric_tolerance": {
+    "rtol": 1e-06,
+    "atol": 1e-06
+  },
+  "result": "Rebuilt features match training cache; shared source extraction preserves feature values."
+}

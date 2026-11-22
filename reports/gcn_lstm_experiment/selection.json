@@ -1,0 +1,7 @@
+{
+  "selection_metric": "2024 validation WMAPE",
+  "selected_variant": "Identity adjacency",
+  "physical_best_epoch": 20,
+  "identity_best_epoch": 20,
+  "test_used_for_selection": false
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "family": "lstm",
+    "split": "validation",
+    "max_abs_prediction_difference": 0.0009375000008731149,
+    "metrics": {
+      "MAE": 178.36325900658903,
+      "RMSE": 462.7315679696845,
+      "WMAPE": 0.08596337445255134,
+      "bias": -0.00878326441905979,
+      "samples": 52156
+    }
+  },
+  {
+    "family": "lstm",
+    "split": "test",
+    "max_abs_prediction_difference": 0.0009375000008731149,
+    "metrics": {
+      "MAE": 194.6391601647294,
+      "RMSE": 523.1578773838048,
+      "WMAPE": 0.0899817449050217,
+      "bias": -0.01887335156302813,
+      "samples": 47762
+    }
+  },
+  {
+    "family": "gcn_lstm",
+    "split": "validation",
+    "max_abs_prediction_difference": 0.0009375000008731149,
+    "metrics": {
+      "MAE": 179.02858906603592,
+      "RMSE": 464.3604413897304,
+      "WMAPE": 0.08628403475755653,
+      "bias": -0.013416271476204123,
+      "samples": 52156
+    }
+  },
+  {
+    "family": "gcn_lstm",
+    "split": "test",
+    "max_abs_prediction_difference": 0.0009375000008731149,
+    "metrics": {
+      "MAE": 197.59081047479495,
+      "RMSE": 527.5082738211847,
+      "WMAPE": 0.09134629377085304,
+      "bias": -0.02616512053619332,
+      "samples": 47762
+    }
+  }
+]

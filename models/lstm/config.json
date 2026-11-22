@@ -1,0 +1,25 @@
+{
+  "config": {
+    "output": "models/lstm",
+    "epochs": 30,
+    "patience": 6,
+    "batch_size": 16,
+    "threads": 2,
+    "seed": 42,
+    "graph": "identity",
+    "evaluate_test": false
+  },
+  "best_epoch": 20,
+  "scaler": {
+    "ride_mean": 7.101771354675293,
+    "ride_std": 1.2092199788818359,
+    "raw_mean": 2185.2431640625
+  },
+  "validation": {
+    "MAE": 178.36325900658903,
+    "RMSE": 462.7315679696845,
+    "WMAPE": 0.08596337445255134,
+    "bias": -0.00878326441905979,
+    "samples": 52156
+  }
+}
