@@ -2,7 +2,6 @@
 
 Next-day entry forecasts for 143 Chicago Transit Authority (CTA) 'L' rail stations. The project compares gradient-boosted trees (XGBoost), a residual LSTM and a GCN-LSTM that uses the physical rail network. All three are scored against a same-weekday-last-week baseline on identical targets.
 
-中文说明见 [README.zh-CN.md](README.zh-CN.md).
 
 ## Results
 
