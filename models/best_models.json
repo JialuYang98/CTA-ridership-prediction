@@ -1,0 +1,76 @@
+{
+  "selection_metric": "2024 validation raw-count WMAPE",
+  "test_used_for_selection": false,
+  "test_period": "2025-01-01 through 2025-11-30",
+  "models": {
+    "xgboost": {
+      "checkpoint": "models/xgboost/model.ubj",
+      "implementation": "cta_xgboost_train.py",
+      "graph_mode": null,
+      "metrics": [
+        {
+          "split": "validation",
+          "samples": 52156,
+          "MAE": 161.1961544458526,
+          "RMSE": 432.46563100719857,
+          "WMAPE": 0.07768957272679572,
+          "bias": -0.016209383071683674
+        },
+        {
+          "split": "test",
+          "samples": 47762,
+          "MAE": 175.2647173036642,
+          "RMSE": 498.524784827066,
+          "WMAPE": 0.08102493406478399,
+          "bias": -0.017439421948447352
+        }
+      ]
+    },
+    "lstm": {
+      "checkpoint": "models/lstm/model.pt",
+      "implementation": "cta_neural_forecast.py",
+      "graph_mode": "identity",
+      "metrics": [
+        {
+          "split": "validation",
+          "samples": 52156,
+          "MAE": 178.36325665233048,
+          "RMSE": 462.73158625926646,
+          "WMAPE": 0.08596337330202285,
+          "bias": -0.008783264599149071
+        },
+        {
+          "split": "test",
+          "samples": 47762,
+          "MAE": 194.6391555629023,
+          "RMSE": 523.1578661641049,
+          "WMAPE": 0.08998174298016387,
+          "bias": -0.018873349486854346
+        }
+      ]
+    },
+    "gcn_lstm": {
+      "checkpoint": "models/gcn_lstm/model.pt",
+      "implementation": "cta_neural_forecast.py",
+      "graph_mode": "physical",
+      "metrics": [
+        {
+          "split": "validation",
+          "samples": 52156,
+          "MAE": 179.0285886923119,
+          "RMSE": 464.3604570405475,
+          "WMAPE": 0.08628403456150079,
+          "bias": -0.013416271892327775
+        },
+        {
+          "split": "test",
+          "samples": 47762,
+          "MAE": 197.59080557380605,
+          "RMSE": 527.5082613804204,
+          "WMAPE": 0.09134629171076453,
+          "bias": -0.02616511830997472
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "common_validation_targets": 51762,
+  "old_standalone_lstm_wmape": 0.09468295838917878,
+  "retained_residual_lstm_wmape": 0.08665869971845772,
+  "retained_architecture": "Identity adjacency, no cross-station mixing; static network attributes retained",
+  "selection": "validation only"
+}

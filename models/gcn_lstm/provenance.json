@@ -1,0 +1,29 @@
+{
+  "training_fingerprints": {
+    "cta_gcn_lstm_improved.py": "dfb12a1f2a1fdc602bcebaa848dc3d575cbe95899fb9566c99f8194447c8bde1",
+    "cta_gcn_lstm_forecast.py": "bc53e8fd93850736d8910f264100f9c962911304b8507870f277b997aa217583",
+    "CTA_-_Ridership_-__L__Station_Entries_-_Daily_Totals.csv": "0dfbb526903900c01269802584818404358c873c9144a28988ea47665b59c56e",
+    "google_transit/stops.txt": "fa90e850540de3e58068cd518591c1754fc43da99d5d9093b97af3807ff44f34",
+    "google_transit/routes.txt": "5a13d264674ff85b3f679dc3b0f46b1d2e4dc779b0f1bc91969b194005301412",
+    "google_transit/trips.txt": "faa96e865399c33328746a3ed852ca987365885a2b49e6bf0dc59c82fc801cc3",
+    "google_transit/stop_times.txt": "4cd34872e4c4f3fabb5e1b7cfe2bbbedda4bf7ee85815457978f29fac2968b78",
+    "google_transit/transfers.txt": "2de6f47ab836c7ac0209b643cc303f5c81a50b387c8ec10edbc182afa511307d"
+  },
+  "current_fingerprints": {
+    "cta_neural_forecast.py": "111e67b295578a0cac96e785752abb3ec522e3fc9980117c8919cbf7fc930f94",
+    "cta_data.py": "30867b6437748fdc720a09abfae5acede8d35d472367e92487581105f55a4883",
+    "CTA_-_Ridership_-__L__Station_Entries_-_Daily_Totals.csv": "0dfbb526903900c01269802584818404358c873c9144a28988ea47665b59c56e",
+    "google_transit/stops.txt": "fa90e850540de3e58068cd518591c1754fc43da99d5d9093b97af3807ff44f34",
+    "google_transit/routes.txt": "5a13d264674ff85b3f679dc3b0f46b1d2e4dc779b0f1bc91969b194005301412",
+    "google_transit/trips.txt": "faa96e865399c33328746a3ed852ca987365885a2b49e6bf0dc59c82fc801cc3",
+    "google_transit/stop_times.txt": "4cd34872e4c4f3fabb5e1b7cfe2bbbedda4bf7ee85815457978f29fac2968b78",
+    "google_transit/transfers.txt": "2de6f47ab836c7ac0209b643cc303f5c81a50b387c8ec10edbc182afa511307d"
+  },
+  "migration": {
+    "from": "cta_gcn_lstm_improved_outputs",
+    "reason": "User requested best-model-only layout; shared preprocessing extracted without behavioral change",
+    "source_checkpoint_sha256": "36c9494c2c608bc3ef720f87baa06eac88afd3b4c675cef2b448bdb1cec8d2ee"
+  },
+  "family": "gcn_lstm",
+  "graph": "physical"
+}

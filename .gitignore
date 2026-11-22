@@ -1,0 +1,16 @@
+# Raw and derived data: download separately (see README)
+CTA_-_Ridership_-__L__Station_Entries_-_Daily_Totals.csv
+google_transit/
+google_transit.zip
+data/
+experiments/
+
+# Office documents and lock files
+*.docx
+~$*
+
+# Python, editor, OS
+__pycache__/
+*.pyc
+.vscode/
+.DS_Store
