@@ -50,7 +50,23 @@ The raw data are not stored in this repository. Download them into the repositor
 1. **Ridership.** [CTA – Ridership – 'L' Station Entries – Daily Totals](https://data.cityofchicago.org/Transportation/CTA-Ridership-L-Station-Entries-Daily-Totals/5neh-572f) from the City of Chicago Data Portal. Export it as CSV and save it as `CTA_-_Ridership_-__L__Station_Entries_-_Daily_Totals.csv`.
 2. **Rail network.** The [CTA GTFS feed](https://www.transitchicago.com/developers/gtfs/). Unzip it into `google_transit/`, so that the folder contains `stops.txt`, `routes.txt`, `trips.txt`, `stop_times.txt` and `transfers.txt`.
 
-The saved models used ridership through Nov 30, 2025 and a GTFS feed downloaded in March 2026. Each model's `provenance.json` stores SHA-256 fingerprints of its inputs and source code. Evaluation refuses to run if those inputs have changed, so a newer download needs a fresh training run in a new output directory.
+### Exact snapshot used by the saved models
+
+Each model's `provenance.json` stores SHA-256 fingerprints of its inputs and source code, and evaluation refuses to run if they have changed. Both public sources are updated regularly, so fresh downloads will not match.
+
+- **Ridership:** download `CTA_L_station_entries_2001-01-01_to_2025-11-30.zip` from the [data-2025-11-30 release](https://github.com/JialuYang98/CTA-ridership-prediction/releases/tag/data-2025-11-30) and unzip it into the repository root. It contains the exact CSV used: 2001-01-01 to 2025-11-30, 1,298,399 rows, retrieved March 8, 2026.
+- **GTFS:** not included, because CTA's developer license limits redistribution. The models used the feed with files dated February 4, 2026 (service calendar January 6 – March 31, 2026), retrieved March 9, 2026. CTA hosts only the current feed; third-party GTFS archives may hold this version.
+
+| File | SHA-256 |
+|---|---|
+| `CTA_-_Ridership_-__L__Station_Entries_-_Daily_Totals.csv` | `0dfbb526903900c01269802584818404358c873c9144a28988ea47665b59c56e` |
+| `google_transit/stops.txt` | `fa90e850540de3e58068cd518591c1754fc43da99d5d9093b97af3807ff44f34` |
+| `google_transit/routes.txt` | `5a13d264674ff85b3f679dc3b0f46b1d2e4dc779b0f1bc91969b194005301412` |
+| `google_transit/trips.txt` | `faa96e865399c33328746a3ed852ca987365885a2b49e6bf0dc59c82fc801cc3` |
+| `google_transit/stop_times.txt` | `4cd34872e4c4f3fabb5e1b7cfe2bbbedda4bf7ee85815457978f29fac2968b78` |
+| `google_transit/transfers.txt` | `2de6f47ab836c7ac0209b643cc303f5c81a50b387c8ec10edbc182afa511307d` |
+
+With newer downloads, retrain into a new output directory instead.
 
 ## Usage
 
